@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:brown ;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
+}
+
+span{
+    color: coral;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+
+.pet{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paltu{
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+img{
+    height: 200px;
+    width: 330px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+h4{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+p{
+    padding: 10px;
+    /* font-size: 15px; */ 
+}
+
+@media(max-width:400px){
+    .pet{
+        flex-wrap: wrap;
+    }
+}

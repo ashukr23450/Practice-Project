@@ -1,0 +1,32 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #a8f1f9;
+    text-align: center;
+}
+
+.name{
+    font-size: 50px;
+    color: #59981A;
+    text-decoration:double red underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#feedback{
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.heading{
+    color: #EF7C8E;
+    text-decoration: wavy black underline;
+}
+
+main p{
+    font-size: 20px;
+    color: #2D1674;
+    font-weight: 550;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+}

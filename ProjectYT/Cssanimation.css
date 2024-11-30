@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightcoral;
+    text-align: center;
+    color: white;
+    background: url(https://c4.wallpaperflare.com/wallpaper/318/851/675/rings-of-saturn-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.container{
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(0.5px);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: 0.4s;
+}
+
+.container:hover{
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.input{
+    width: 300px;
+    height: 35px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    text-indent: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+
+}
+
+.input::placeholder{
+    color: white;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    display: inline;
+}
+
+.rembr{
+    display: inline-block;
+}
+
+#login{
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.link{
+    margin-left:70px ;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}

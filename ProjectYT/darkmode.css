@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50vh;
+}
+
+input{
+    -webkit-animation: none;
+    display: none;
+    visibility: none;
+}
+
+.click{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #333;
+    display: block;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    overflow: hidden;
+}
+
+.click:before{
+    content:'' ;
+    position: absolute;
+    top: 15px;
+    left:15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+input:checked ~ .click{
+    background-color: white;
+    box-shadow: 0 0 0 1500px #333;
+}
+
+input:checked ~ .click::before{
+    transform: translateX(-100px);
+}
+.click:after{
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 70px;
+    width: 70px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(100px);
+}
+
+input:checked ~ .click::after{
+    transform: translateX(0px);
+}
