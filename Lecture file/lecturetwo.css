@@ -1,0 +1,102 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+}
+
+h1{
+    color: #1b74e4;
+    font-size: 40px;
+}
+
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+
+.userbtn{
+    background-color: aqua;
+}
+
+.quora{
+    color: #f52936;
+}
+
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #f52936;
+    color: white;
+}
+
+h3{
+    color: #f52936;
+    text-decoration: wavy underline;
+}
+.vvotebtn{
+    background-color: green;
+    color: white;
+}
+
+.answerbtn{
+    background-color: #7474dc;
+}
+
+nav a{
+    color: #e34e67;
+    text-decoration: none;
+}
+
+p a{
+    background-color: yellow;
+}
+
+input[type="text"]{
+    background-color: #f52936;
+    color: black;
+}
+
+input[type="password"]{
+    background-color: #f52936;
+    color: white;
+}
+
+.vvotebtn:hover{
+    background-color: #f52936;
+    color: black;
+}
+
+.answerbtn:active{
+    background-color:chartreuse vcv;
+}
+
+.signals{
+    background-color:white;
+    height: 350px;
+    width: 150px;
+    border: 2px solid black;
+
+}
+
+.light{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+

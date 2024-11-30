@@ -1,0 +1,17 @@
+.container{
+    height: 600px;
+    display: flex;
+}
+
+
+#heading{
+    color: blueviolet;
+    font-size: 100px;
+}
+
+.sbtn-warning{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}

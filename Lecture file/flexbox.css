@@ -1,0 +1,129 @@
+.outer{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #369658;
+    display: flex;
+    flex-direction:row r;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: brown;
+}
+/* Question - One */
+.container4{
+    height: 100px;
+    width: 1000px;
+    border: 2px solid orange;
+    background-color: rgb(45, 45, 249);
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.anch{
+    color: yellow;
+    text-decoration: none;
+}
+
+/* Niche wala Lecture Wala Hai */
+
+h1{
+    text-align: center;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    margin: 0 auto;
+    border: 5px solid green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+
+}
+
+.items{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: grey;
+    font-weight: bold;    
+    text-align: center;
+}
+
+.container2{
+    height: 50px;
+    width: 900px;
+    border: 5px solid #369658;
+    background: pink;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding-right: 100px;
+}
+
+/* YouTube lecture - FlexBox */
+.container3{
+    height: 300px;
+    width: 1000px;
+    border: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: burlywood;
+}
+
+.three{
+    background-color: darkgoldenrod;
+}
+
+.four{
+    background-color: red;
+}
+
+.five{
+    background-color: #3333e0;
+}

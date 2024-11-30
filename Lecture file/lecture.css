@@ -1,0 +1,43 @@
+#headings{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;    
+}
+
+body{
+    background-color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #964B00;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: #008000;
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}

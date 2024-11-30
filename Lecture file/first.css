@@ -1,0 +1,97 @@
+#navbar{
+    padding: 0px;
+    margin: 0px;
+}
+
+#box{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.heading{
+    color: red;
+    text-align:start;
+    text-decoration:blue dotted underline;
+}
+
+#btn{
+    background-color: green;
+}
+
+/* Practice Set - 3*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.outer{
+    height:60px;
+    width:100% ;
+    background-color: #0f1111;
+}
+
+#logo{
+    font-size: 25px;
+    text-decoration: none;
+    color: #f08804;
+    padding-left: 10px;
+}
+
+.outer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 200px;
+}
+
+.outer input{
+    border-radius: 5px;
+}
+
+#btn1{
+background-color: #f08804;
+border-radius: 5px;
+}
+
+/* Practice Set - 4 */
+
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+main{
+    height: 500px;
+}
+
+.one{
+    background-color:rgba(0, 255, 0,0.5);
+    text-align: center;
+    font-size: 20px;
+}
+
+.two{
+    text-align:center;
+    font-size: 20px;
+    background-color: rgba(255,0,0,0.5);
+}
+
+.three{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-weight: 600;
+}
