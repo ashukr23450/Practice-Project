@@ -17,6 +17,7 @@
     border-radius: 0 0 35px 35px;
 }
 
+
 .left-eye , .right-eye{
     height: 50px;
     width: 50px;
@@ -27,6 +28,7 @@
     top: 100px;
     left: 100px;
 }
+
 
 .right-eye{
     left: 250px;
