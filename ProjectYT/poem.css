@@ -4,6 +4,7 @@
     text-align: center;
 }
 
+
 .name{
     font-size: 50px;
     color: #59981A;
@@ -18,10 +19,12 @@
     border-radius: 5px;
 }
 
+
 .heading{
     color: #EF7C8E;
     text-decoration: wavy black underline;
 }
+
 
 main p{
     font-size: 20px;
